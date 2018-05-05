@@ -1,0 +1,34 @@
+{
+  "name": "vscode-wasm-essentials",
+  "version": "0.1.0",
+  "author": {
+    "name": "Juan Mellado"
+  },
+  "homepage": "https://github.com/jcmellado/vscode-wasm-essentials",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcmellado/vscode-wasm-essentials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcmellado/vscode-wasm-essentials/issues"
+  },
+  "publisher": "jcmellado",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "license": "MIT",
+  "displayName": "WebAssembly Essentials Pack",
+  "icon": "images/webassembly.png",
+  "description": "Essential Visual Studio Code extensions for WebAssembly developers",
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "javascript"
+  ],
+  "extensionDependencies": [
+    "jcmellado.vscode-wasm-syntax-lite"
+  ]
+}
